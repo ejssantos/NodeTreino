@@ -1,0 +1,29 @@
+{
+  "name": "nodetreino",
+  "version": "1.0.0",
+  "description": "Apps criados durante o treinamento em Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "bin": {
+    "search-files": "./appApiExpress/appSearchFilesCli/bin"
+  },
+  "files": [
+    "./bin"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejssantos/NodeTreino.git"
+  },
+  "author": "Eduardo José Silva dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejssantos/NodeTreino/issues"
+  },
+  "homepage": "https://github.com/ejssantos/NodeTreino#readme"
+}
