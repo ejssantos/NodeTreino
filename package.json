@@ -7,7 +7,7 @@
     "express": "^4.17.1"
   },
   "bin": {
-    "search-files": "./appApiExpress/appSearchFilesCli/bin"
+    "search-files": "./appNodeTreino/appSearchFilesCli/bin/search-files-cli"
   },
   "files": [
     "./bin"
