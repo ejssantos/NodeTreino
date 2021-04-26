@@ -2,15 +2,17 @@
   "name": "nodetreino",
   "version": "1.0.0",
   "description": "Apps criados durante o treinamento em Node.js",
-  "main": "index.js",
+  "preferGlobal": true,
   "dependencies": {
     "express": "^4.17.1"
   },
   "bin": {
-    "search-files": "./appNodeTreino/appSearchFilesCli/bin/search-files-cli"
+    "clima": "./Node-Clima-Cli/bin/clima",
+    "search-files": "./appSearchFilesCli/bin/search-files-cli"
   },
   "files": [
-    "./bin"
+    "./bin",
+    "./src"
   ],
   "devDependencies": {},
   "scripts": {
